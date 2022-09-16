@@ -14,6 +14,7 @@ body {
     box-sizing: border-box;
 }
 
+/********** NavBar **********/
 header {
     position: fixed;
     top: 0;
@@ -64,7 +65,6 @@ nav * {
 .nav-menu a i {
     font-size: 20px;
 }
-
 #btn-menu{
     position: fixed;
     top: 0;
@@ -75,7 +75,6 @@ nav * {
     font-size: 20px;
     display: none;
 }
-
 @media screen and (max-width: 700px) {
     #btn-menu{
         display: block;
@@ -84,7 +83,9 @@ nav * {
         display: none;
     }
 }
+/********** NavBar **********/
 
+/********** Back To Top **********/
 .back-to-top {
     position: fixed;
     right: 15px;
@@ -109,11 +110,82 @@ nav * {
     color: #fff;
     background: #0563bb;
 }
+/********** Back To Top **********/
 
 body #home , body #about , body #resume , body #project , body #services , body #contact{
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+/********** About **********/
+#about{
+    gap: 20px;
+    font-size: 20px;
+}
+#about #title {
+    font-size: 50px;
+    font-weight: 700;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 8px;
+}
+#about #title::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: black;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+#about #title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #0563bb;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+#about #title_2 {
+    color: #6c757d;
+    font-size: 25px;
+    font-weight: 600;
+}
+#about #info ul li{
+    list-style: none;
+    display: flex;
+    margin-top: 5px;
+}
+#about #info ul li span:first-child{
+    font-weight: 600;
+    width: 150px;
+}
+#about #info ul li span:last-child{
+    color: #6c757d;
+}
+#about #info #n_project span:first-child{
+    color: #0563bb;
+}
+#about #info #n_project span:last-child{
+    font-weight: 600;
+    width: 150px;
+}
+
+#about #download{
+    background: #f2f3f5;
+    font-weight: 600;
+    border: none;
+}
+#about #download:hover{
+    color: #fff;
+    background: #0563bb;
+}
+/********** About **********/
