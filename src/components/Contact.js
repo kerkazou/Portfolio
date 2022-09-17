@@ -33,18 +33,18 @@ class Contact extends Component {
             <div className='row d-flex flex-wrap justify-content-around align-items-center gap-md-3 gap-2'>
               <div className='form-group d-flex flex-wrap gap-md-0 gap-2'>
                 <div className="col-md-6 col-12 pe-md-2">
-                  <input type="text" className="form-control" placeholder="FirstName" required=""></input>
+                  <input type="text" className="form-control" placeholder="FirstName"></input>
                 </div>
                 <div className="col-md-6 col-12 ps-md-2">
-                  <input type="text" className="form-control" placeholder="LastName" required=""></input>
+                  <input type="text" className="form-control" placeholder="LastName"></input>
                 </div>
               </div>
               <div className='form-group d-flex flex-wrap gap-md-0 gap-2'>
                 <div className="col-md-6 col-12 pe-md-2">
-                  <input type="text" className="form-control" placeholder="Email" required=""></input>
+                  <input type="text" className="form-control" placeholder="Email"></input>
                 </div>
                 <div className="col-md-6 col-12 ps-md-2">
-                  <input type="text" className="form-control" placeholder="Object" required=""></input>
+                  <input type="text" className="form-control" placeholder="Object"></input>
                 </div>
               </div>
               <div className="col-12">

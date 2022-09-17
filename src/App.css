@@ -302,7 +302,7 @@ body #contact{
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 #contact .contact-lec{
@@ -319,3 +319,38 @@ body #contact{
     color: #6c757d;
 }
 /********** Contact **********/
+
+/********** Foother **********/
+body #foother{
+    background: #f2f3f5;
+}
+body #foother #foother-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+body #foother #foother-social{
+    display: flex;
+    gap: 15px;
+}
+body #foother #foother-social a{
+    text-decoration: none;
+    font-size: 25px;
+}
+body #foother #foother-social a i{
+    color: #000000;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.6s ease-in-out;
+}
+body #foother #foother-social i:hover{
+    color: #fff;
+    background-color: #0563bb;
+}
+body #foother #copyright{
+    font-size: 18px;
+}
+/********** Foother **********/
