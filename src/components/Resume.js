@@ -6,7 +6,7 @@ class Resume extends Component {
       <div id='resume'>
         <div id='title'>Resume</div>
         <div className='container d-md-flex'>
-          <div className='container col-md-6'>
+          <div className='container col-md-5 col-10'>
             <div className='title_2'>Education</div>
             <div id='body-education'>
               <div className='education'>
@@ -29,8 +29,20 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-          <div className='container col-md-6'>
+          <div className='container col-md-5 col-10'>
             <div className='title_2'>Professional Experience</div>
+            <div id='body-experience'>
+              <div className='experience'>
+                <div className='title-experience'>Maintenance électrique calcination</div>
+                <div>office chérifien des phosphates (OCP), Youssoufia</div>
+                <div>Juin 2019 - Mai 2019</div>
+              </div>
+              <div className='experience'>
+                <div className='title-experience'>Maintenance centralisée</div>
+                <div>Office chérifien des phosphates (OCP), Youssoufia</div>
+                <div>Mars 2018 - Avril 2018</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
