@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div id='about'>
         <div id='title'>About Me</div>
-        <div id='title_2'>UI/UX Designer & Web Developer.</div>
+        <div className='title_2'>UI/UX Designer & Web Developer.</div>
         <div className='w-100 d-flex'>
           <div className='col-lg-6 col-md-5 d-md-flex d-none flex-column justify-content-center align-items-center gap-2'>
             <img src={Image} alt="Logo"/>
