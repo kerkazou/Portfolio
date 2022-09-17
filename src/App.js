@@ -3,6 +3,7 @@ import AssidBar from './components/AssidBar';
 import Home from './components/Home';
 import About from './components/About';
 import Resume from './components/Resume';
+import Skills from './components/Skills';
 import Project from './components/Project';
 import Services from './components/Services';
 import Contact from './components/Contact';
@@ -17,6 +18,7 @@ class App extends Component {
         <Home />
         <About />
         <Resume />
+        <Skills />
         <Project />
         <Services />
         <Contact />

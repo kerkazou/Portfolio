@@ -46,6 +46,7 @@ class AssidBar extends Component {
               <li><a href='#home' className='nav-link scrollto'><i className='bi bi-house-door'></i> <span>Home</span></a></li>
               <li><a href='#about' className='nav-link scrollto'><i className='bi bi-person'></i> <span>About</span></a></li>
               <li><a href='#resume' className='nav-link scrollto'><i className='bi bi-file-earmark'></i> <span>Resume</span></a></li>
+              <li><a href='#skills' className='nav-link scrollto'><i class="bi bi-sliders"></i> <span>Skills</span></a></li>
               <li><a href='#project' className='nav-link scrollto'><i className='bi bi-globe'></i> <span>Project</span></a></li>
               <li><a href='#services' className='nav-link scrollto'><i className='bi bi-hdd-stack'></i> <span>Services</span></a></li>
               <li><a href='#contact' className='nav-link scrollto'><i className='bi bi-envelope'></i> <span>Contact</span></a></li>
