@@ -268,6 +268,43 @@ body #resume #body-experience .experience div:last-child{
 }
 /********** Resume **********/
 
+/********** Services **********/
+body #services .services-cart{
+    background: #f2f3f5;
+    border-radius: 16px;
+    min-height: 200px;
+}
+body #services .services-cart:hover{
+    background: #0563bb;
+    transition: all 0.6s;
+}
+body #services .services-cart i{
+    font-size: 70px;
+    color: #0563bb;
+}
+body #services .services-cart:hover i{
+    color: #000000;
+    transition: all 0.6s;
+}
+body #services .services-cart div{
+    font-weight: 700;
+    font-size: 25px;
+}
+body #services .services-cart:hover div{
+    color: #fff;
+    transition: all 0.6s;
+}
+body #services .services-cart div:last-child{
+    color: #6c757d;
+    font-size: 20px;
+}
+body #services .services-cart:hover div:last-child{
+    color: #fff;
+    transition: all 0.6s;
+}
+/********** Services **********/
+
+
 /********** Contact **********/
 body #contact{
     background-image: url(../src/assets/map.png);
@@ -319,6 +356,7 @@ body #contact{
     color: #6c757d;
 }
 /********** Contact **********/
+
 
 /********** Foother **********/
 body #foother{
