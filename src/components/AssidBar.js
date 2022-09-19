@@ -42,7 +42,7 @@ class AssidBar extends Component {
         </div>
         <header className='d-flex flex-column justify-content-center' id='navbar'>
           <nav className='navbar nav-menu'>
-            <ul className='d-flex flex-column gap-2'>
+            <ul className='d-flex flex-column gap-1'>
               <li><a href='#home' className='nav-link scrollto'><i className='bi bi-house-door'></i> <span>Home</span></a></li>
               <li><a href='#about' className='nav-link scrollto'><i className='bi bi-person'></i> <span>About</span></a></li>
               <li><a href='#resume' className='nav-link scrollto'><i className='bi bi-file-earmark'></i> <span>Resume</span></a></li>
