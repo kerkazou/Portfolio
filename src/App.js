@@ -13,7 +13,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" className="scrollspy-example" tabindex="0">
         <AssidBar />
         <Home />
         <About />

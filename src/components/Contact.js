@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Portfolio from '../Portfolio';
 
 class Contact extends Component {
   render() {
@@ -11,21 +12,21 @@ class Contact extends Component {
               <i className="bi bi-geo-alt"></i>
               <div>
                 <div>Location:</div>
-                <div>Youssoufia, MOROCO</div>
+                <div>{Portfolio.information.localisation}</div>
               </div>
             </div>
             <div className='d-flex align-items-center gap-3 contact-lec'>
               <i className="bi bi-envelope"></i>
               <div>
                 <div>Email:</div>
-                <div>kerkazou.zakaria@gamil.com</div>
+                <div>{Portfolio.information.email}</div>
               </div>
             </div>
             <div className='d-flex align-items-center gap-3 contact-lec'>
               <i className="bi bi-phone"></i>
               <div>
                 <div>Call:</div>
-                <div>+2126-2276-6915</div>
+                <div>{Portfolio.information.phone}</div>
               </div>
             </div>
           </div>

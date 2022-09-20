@@ -187,6 +187,7 @@ body #home , body #about , body #resume , body #skills , body #project , body #s
     font-weight: 400;
     font-size: 20px;
     border: none;
+    height: 60px;
 }
 #about #download:hover{
     color: #fff;
@@ -400,8 +401,10 @@ body #foother #copyright{
 /********** Project **********/
 body #project .card{
     height: 350px;
+    background: #f2f3f5;
     text-align: center;
     text-decoration: none;
+    font-size: 20px;
 }
 body #project .card:hover{
     background-color: #0563bb;
@@ -410,7 +413,6 @@ body #project .card:hover{
 body #project .card .card-body .card-title{
     color: #6c757d;
     font-weight: 700;
-    font-size: 20px;
 }
 body #project .card:hover .card-body .card-title{
     color: #000000;

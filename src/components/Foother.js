@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import portfolio from '../Portfolio';
 
 class Foother extends Component {
   render() {
@@ -8,18 +9,18 @@ class Foother extends Component {
           <div id='foother-title'>Kerkazou Zakaria</div>
           <div>
             <div id="foother-social">
-              <a href='https://www.linkedin.com/in/kerkazou-zakaria-591768230/'><i class="bi bi-linkedin"></i></a>
-              <a href='https://github.com/kerkazou'><i class="bi bi-github"></i></a>
-              <a href='https://kerkazou-zakaria.com'><i class="bi bi-globe2"></i></a>
-              <a href='https://kerkazou-zakaria.com'><i class="bi bi-twitter"></i></a>
-              <a href='https://kerkazou-zakaria.com'><i class="bi bi-instagram"></i></a>
-              <a href='https://kerkazou-zakaria.com'><i class="bi bi-facebook"></i></a>
+              <a href={portfolio.information.linkedin}><i className="bi bi-linkedin"></i></a>
+              <a href={portfolio.information.github}><i className="bi bi-github"></i></a>
+              <a href={portfolio.information.website}><i className="bi bi-globe2"></i></a>
+              <a href={portfolio.information.twitter}><i className="bi bi-twitter"></i></a>
+              <a href={portfolio.information.instagram}><i className="bi bi-instagram"></i></a>
+              <a href={portfolio.information.facebook}><i className="bi bi-facebook"></i></a>
             </div>
           </div>
           <div id="copyright">
             © Copyright 2022. All Rights Reserved
           </div>
-          <div class="credits">Designed by Kerkazou</div>
+          <div className="credits">Designed by {portfolio.information.lastname}</div>
         </div>
       </div>
     );
