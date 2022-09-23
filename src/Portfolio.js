@@ -66,6 +66,12 @@ const portfolio =
                                     image : "siefco",
                                     discruption : "Une application web pour ...",
                                     link : "https://github.com/nouha286/siefco_project"
+                                },
+                                {
+                                    name : "Tic Tac Toe",
+                                    image : "Tic_Tac_Toe",
+                                    discruption : "Une application web pour joueur, de deux joueur.",
+                                    link : "https://github.com/kerkazou/Tic-Tac-To"
                                 }
                             ],
                     educations : [
